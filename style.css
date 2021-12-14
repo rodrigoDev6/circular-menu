@@ -10,7 +10,7 @@ body{
   align-items: center;
 
   min-height: 100vh;
-  background: linear-gradient(65deg,#822421,#ff00ff);
+  background: linear-gradient(65deg,#808221,#00b7ff);
 }
 
 .menu{
@@ -50,7 +50,7 @@ body{
   border-radius: 50%;
   box-shadow: rgba(0,0,0,0.15);
 
-  color: rgb(19, 17, 17);
+  color: rgb(19, 17, 19);
   transform: rotate(calc(360deg / -8 * var(--i)));
 }
 
@@ -64,13 +64,14 @@ body{
   width: 60px;
   height: 60px;
   font-size: 2em;
+  color: #00b7ff;
 
   display: flex;
   justify-content: center;
   align-items: center;
 
   z-index: 100;
-  background: rgb(228, 225, 216);
+  background: rgb(232, 233, 233);
 
   border-radius: 50%;
   box-shadow: 0 3px 4px rgba(0,0,0,0.15);
